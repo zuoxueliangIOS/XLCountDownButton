@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = "实现短信倒计时按钮"
   s.homepage     = "https://github.com/zuoxueliangIOS/XLCountDownButton"
   s.license      = "MIT"
-  s.author       = { "zuoxueliangIOS" => "469036530@qq.com" }
+  s.author       = { "左学良" => "469036530@qq.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/zuoxueliangIOS/XLCountDownButton.git", :tag => s.version }
   s.source_files  = "XLCountDownButton", "XLCountDownButton/XLCountDownButton/*.{h,m}"
