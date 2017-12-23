@@ -13,7 +13,7 @@
 		88612E1D1FED02C700EDF173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88612E1C1FED02C700EDF173 /* Assets.xcassets */; };
 		88612E201FED02C700EDF173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88612E1E1FED02C700EDF173 /* LaunchScreen.storyboard */; };
 		88612E231FED02C700EDF173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88612E221FED02C700EDF173 /* main.m */; };
-		88612E2B1FED02EF00EDF173 /* XLCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 88612E2A1FED02EF00EDF173 /* XLCountDownButton.m */; };
+		886712651FEE76CD00C8BA1B /* XLCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 886712641FEE76CD00C8BA1B /* XLCountDownButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		88612E1F1FED02C700EDF173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88612E211FED02C700EDF173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88612E221FED02C700EDF173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		88612E291FED02EF00EDF173 /* XLCountDownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLCountDownButton.h; sourceTree = "<group>"; };
-		88612E2A1FED02EF00EDF173 /* XLCountDownButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLCountDownButton.m; sourceTree = "<group>"; };
+		886712631FEE76CD00C8BA1B /* XLCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCountDownButton.h; sourceTree = "<group>"; };
+		886712641FEE76CD00C8BA1B /* XLCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCountDownButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +61,25 @@
 		88612E121FED02C700EDF173 /* XLCountDownButton */ = {
 			isa = PBXGroup;
 			children = (
+				886712621FEE76CD00C8BA1B /* XLCountDownButton */,
 				88612E131FED02C700EDF173 /* AppDelegate.h */,
 				88612E141FED02C700EDF173 /* AppDelegate.m */,
 				88612E161FED02C700EDF173 /* ViewController.h */,
 				88612E171FED02C700EDF173 /* ViewController.m */,
-				88612E291FED02EF00EDF173 /* XLCountDownButton.h */,
-				88612E2A1FED02EF00EDF173 /* XLCountDownButton.m */,
 				88612E191FED02C700EDF173 /* Main.storyboard */,
 				88612E1C1FED02C700EDF173 /* Assets.xcassets */,
 				88612E1E1FED02C700EDF173 /* LaunchScreen.storyboard */,
 				88612E211FED02C700EDF173 /* Info.plist */,
 				88612E221FED02C700EDF173 /* main.m */,
+			);
+			path = XLCountDownButton;
+			sourceTree = "<group>";
+		};
+		886712621FEE76CD00C8BA1B /* XLCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				886712631FEE76CD00C8BA1B /* XLCountDownButton.h */,
+				886712641FEE76CD00C8BA1B /* XLCountDownButton.m */,
 			);
 			path = XLCountDownButton;
 			sourceTree = "<group>";
@@ -150,7 +158,7 @@
 				88612E181FED02C700EDF173 /* ViewController.m in Sources */,
 				88612E231FED02C700EDF173 /* main.m in Sources */,
 				88612E151FED02C700EDF173 /* AppDelegate.m in Sources */,
-				88612E2B1FED02EF00EDF173 /* XLCountDownButton.m in Sources */,
+				886712651FEE76CD00C8BA1B /* XLCountDownButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
