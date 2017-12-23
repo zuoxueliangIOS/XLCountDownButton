@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { "左学良" => "469036530@qq.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/zuoxueliangIOS/XLCountDownButton.git", :tag => s.version }
-  s.source_files  = "XLCountDownButton", "XLCountDownButton/XLCountDownButton/*.{h,m}"
+  s.source_files  = "XLCountDownButton", "XLCountDownButton/XLCountDownButton/XLCountDownButton/*.{h,m}"
   s.frameworks = "Foundation"
   s.requires_arc = true
 
