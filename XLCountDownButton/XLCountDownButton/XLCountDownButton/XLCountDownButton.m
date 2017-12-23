@@ -7,7 +7,6 @@
 //
 
 #import "XLCountDownButton.h"
-
 @implementation XLCountDownButton
 
 #pragma -mark touche action
